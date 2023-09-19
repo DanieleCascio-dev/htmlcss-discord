@@ -42,7 +42,9 @@ body {
 }
 
 hr {
-  border: 2px solid #4b4d4f;
+  border: 1px solid #49557e;
+  width: 70%;
+  margin: 3rem auto 0;
 }
 
 .m-btm {
@@ -173,14 +175,6 @@ h1 {
   gap: 2rem;
 }
 
-.l-blue {
-  background-color: #1e90ff;
-}
-
-.pink {
-  background-color: pink;
-}
-
 .col-big {
   width: 60%;
 }
@@ -235,11 +229,10 @@ h2 {
 
 /* FOOTER */
 
-/* footer {
-  height: 500px;
+footer {
   background-color: #23272a;
-  padding-top: 1rem;
-} */
+  padding-left: 2rem;
+}
 
 .grid-container {
   height: 350px;
@@ -303,24 +296,24 @@ h5 {
 /* SIGNED */
 .signed-container {
   background-color: #23272a;
-  /* height: 100px; */
-  padding-top: 2rem;
   align-items: flex-end;
 }
 
 .signed {
-  background-color: aquamarine;
   justify-content: space-between;
   align-items: center;
+  padding-top: 0.5rem;
 }
 
 .logo-btm,
 .button {
   padding: 0.4rem;
-  background-color: #ffb6c1;
-  border: 1px dashed black;
 }
 
+.sign-up {
+  background-color: #7289da;
+  padding: 0.5rem;
+}
 /* SIGNED */
 
 /* /FOOTER */
