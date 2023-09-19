@@ -193,6 +193,23 @@ h2 {
 }
 /* /SECTION */
 
+/* WAVE */
+.wave-container {
+  width: 100%;
+  height: 50px;
+}
+
+.wave-container path {
+  height: 100%;
+  fill: #f6f6f6;
+}
+
+.rotate {
+  transform: rotate(0.5turn);
+}
+
+/* /WAVE */
+
 /* INFO SECTION */
 
 .info {
