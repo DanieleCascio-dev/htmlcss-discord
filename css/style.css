@@ -44,6 +44,23 @@ body {
 hr {
   border: 2px solid #4b4d4f;
 }
+
+.m-btm {
+  margin-bottom: 1rem;
+}
+
+.m-btm-2 {
+  margin-bottom: 2rem;
+}
+
+.m-right {
+  margin-right: 0.5rem;
+}
+
+.button-link {
+  padding: 0.8rem;
+  border-radius: 25px;
+}
 /* /COMMON */
 
 /* HEADER */
@@ -108,7 +125,8 @@ a {
 
 /* HERO  */
 .hero-section {
-  background-color: blue;
+  background-image: url(../img/jumbo.png);
+  background-size: 100%;
   /* min-height: 400px; */
   padding: 4rem 0;
   justify-content: center;
@@ -121,10 +139,23 @@ a {
 
 .hero {
   min-height: 250px;
-  background-color: #ee82ee;
-  border: 1px dashed black;
+  text-align: center;
+  color: #fff;
+  padding-top: 2rem;
 }
 
+h1 {
+  margin-bottom: 1rem;
+}
+
+.download {
+  background-color: white;
+  color: black;
+}
+
+.open {
+  background-color: #23272a;
+}
 /* /HERO  */
 
 /* MAIN */
