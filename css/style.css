@@ -34,7 +34,7 @@ body {
 }
 
 .b-grey {
-  background-color: lightgrey;
+  background-color: #f6f6f6;
 }
 
 .b-lightcoral {
@@ -209,12 +209,26 @@ h2 {
 }
 
 .info-container {
-  background-color: #228b22;
-  min-height: 600px;
   width: 70%;
-  border: 1px dashed black;
+  text-align: center;
 }
 
+.bottom-title {
+  font-size: 1.5rem;
+}
+
+.bottom-title::before {
+  content: "";
+  background-image: url(../img/stars.svg);
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.info-container a {
+  padding: 0.5rem;
+  background-color: #7289da;
+}
 /* INFO SECTION */
 
 /* /MAIN */
