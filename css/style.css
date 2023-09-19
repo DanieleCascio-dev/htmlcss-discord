@@ -246,16 +246,14 @@ h2 {
   background-color: #23272a;
   padding-top: 1rem;
   padding-bottom: 4rem;
+  color: #fff;
 }
 
 .grid {
   min-height: 300px;
-
-  border: 1px dashed black;
 }
 
 .col {
-  border: 1px dashed white;
   width: 30%;
 }
 
@@ -266,8 +264,40 @@ h2 {
 
 .footer-menu {
   width: calc(100% / 4);
-  background-color: lightgray;
-  border: 1px dashed black;
+}
+
+h3 {
+  color: #7289da;
+}
+
+.language-info {
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+.flag {
+  width: 1rem;
+  vertical-align: middle;
+}
+
+.icon-btm i {
+  margin-right: 0.5rem;
+}
+
+.footer-menu ul {
+  list-style: none;
+}
+
+.footer-menu li {
+  margin-bottom: 1rem;
+}
+
+.footer-menu li a {
+  font-size: 0.8rem;
+}
+
+h5 {
+  color: #7289da;
 }
 
 /* SIGNED */
@@ -279,7 +309,6 @@ h2 {
 }
 
 .signed {
-  height: 60px;
   background-color: aquamarine;
   justify-content: space-between;
   align-items: center;
