@@ -170,6 +170,7 @@ h1 {
 
 .content {
   min-height: 300px;
+  gap: 2rem;
 }
 
 .l-blue {
@@ -182,14 +183,20 @@ h1 {
 
 .col-big {
   width: 60%;
-  border: 1px dashed black;
 }
 
 .col-small {
   width: 40%;
-  border: 1px dashed black;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+.section-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
 /* /SECTION */
 
 /* INFO SECTION */
