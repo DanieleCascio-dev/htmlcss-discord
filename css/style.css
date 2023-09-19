@@ -211,12 +211,13 @@ h2 {
   font-size: 1.5rem;
 }
 
-.bottom-title::before {
-  content: "";
-  background-image: url(../img/stars.svg);
-  width: 40px;
-  height: 40px;
-  display: inline-block;
+.stars {
+  justify-content: center;
+  margin-bottom: -15px;
+}
+
+.stars-img {
+  width: 65%;
 }
 
 .info-container a {
