@@ -231,11 +231,12 @@ h2 {
 
 .stars {
   justify-content: center;
-  margin-bottom: -15px;
+  margin-bottom: -1.2rem;
 }
 
 .stars-img {
-  width: 65%;
+  width: 70%;
+  min-width: 500px;
 }
 
 .info-container a {
