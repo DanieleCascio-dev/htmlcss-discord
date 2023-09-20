@@ -60,8 +60,9 @@ hr {
 }
 
 .button-link {
-  padding: 0.8rem;
-  border-radius: 25px;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 1.5rem;
 }
 /* /COMMON */
 
@@ -117,8 +118,6 @@ a {
 .login a {
   color: black;
   background-color: #fff;
-  border-radius: 25px;
-  padding: 0.7rem;
   text-decoration: none;
 }
 
