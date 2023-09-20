@@ -59,6 +59,10 @@ hr {
   margin-right: 0.5rem;
 }
 
+.m-top {
+  margin-top: 0.5rem;
+}
+
 .button-link {
   display: inline-block;
   padding: 0.5em 1em;
@@ -129,7 +133,7 @@ a {
 .hero-section {
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  /* min-height: 400px; */
+  background-position: center left;
   padding: 4rem 0;
   justify-content: center;
   align-items: center;
@@ -150,13 +154,14 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.download {
+.light {
   background-color: white;
   color: black;
 }
 
-.open {
+.dark {
   background-color: #23272a;
+  color: white;
 }
 /* /HERO  */
 
