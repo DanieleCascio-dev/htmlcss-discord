@@ -78,6 +78,11 @@ nav {
   background-color: #255ee9;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .nav-container {
@@ -131,6 +136,7 @@ a {
 
 /* HERO  */
 .hero-section {
+  margin-top: 5rem;
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center left;
@@ -202,6 +208,7 @@ h2 {
 .wave-container {
   width: 100%;
   height: 4rem;
+  display: block;
 }
 
 .wave-container path {
